@@ -1,4 +1,4 @@
-FROM nginx:1.30-alpine
+FROM nginx:1.31-alpine
 
 # Serve the HTML5 game as static files.
 WORKDIR /usr/share/nginx/html
